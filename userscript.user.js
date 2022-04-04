@@ -12,7 +12,7 @@ if (window.top !== window.self) {
     window.addEventListener('load', () => {
         let lastVersion = new Date().getTime();
 
-        const full = "https://cdn.discordapp.com/attachments/958615249651642418/960605854133014538/unknown.png";
+        const full = "https://raw.githubusercontent.com/Astavie/anarchychessoverlay/6891398f8823efb98b72f1c8585f1cb44abe61ff/overlay.png";
 
         //region image manipulation
         const getImageData = async () => {
